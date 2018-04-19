@@ -10,5 +10,6 @@ class JavaSslTest < Formula
 
   def install
     bin.install  "javassltest.sh"
+    bin.install  "jdeploy-bundle/*.jar"
   end
 end
